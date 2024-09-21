@@ -23,3 +23,4 @@ int data_select (int M, float resistance[])
     }
     return begining;
 }
+
