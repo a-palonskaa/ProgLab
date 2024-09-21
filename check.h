@@ -1,6 +1,9 @@
 #ifndef CHECK_H_INCLUDED
 #define CHECK_H_INCLUDED
 
-int check(int K, float* resistance, float resistance_final);
+#include <stdio.h>
+#include <math.h>
+#include <assert.h>
+int check( int K, float* resistance, float resistance_final);
 
 #endif // CHECK_H_INCLUDED
